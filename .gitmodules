@@ -1,0 +1,4 @@
+[submodule "dattah/bzaddons"]
+	path = dattah/bzaddons
+	url = git@github.com:dattah/bzaddons.git
+	branch = 13.0
