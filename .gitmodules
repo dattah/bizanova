@@ -2,6 +2,3 @@
 	path = dattah/bzaddons
 	url = git@github.com:dattah/bzaddons.git
 	branch = 13.0
-[submodule "keystagesuccess"]
-	path = keystagesuccess
-	url = git@github.com:joekangudia/keystagesuccess.git
