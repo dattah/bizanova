@@ -3,7 +3,7 @@
         <xpath expr="//link[last()]" position="after">
         
             <!-- Main Stylesheet File -->
-            <link href="/mytutor/static/scss/style.css" rel="stylesheet"/>
+            <link href="/keystagesuccess/static/scss/style.css" rel="stylesheet"/>
         
         </xpath>
     </template>
