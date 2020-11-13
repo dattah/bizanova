@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- banner-->
+        <template id="cover_banner" name="cover banener"> 
+            <section>
+                    <div class="overlay"></div>
+                    <div class="full-banniere">
+                        <div class="container py-5 pt-5">
+                            <div class="bloc_right  my-5 text-white col-lg-6">
+                                <h4 class="pb-0 display-4 font-weight-bold titre_home">Online Home-Schooling Centre of Excellence</h4>
+                                <p class="h4 pt-0">Secure your child’s future success with round-the-clock access to the curriculum!</p>
+                                <a href="#" class="btn btn-lg bg_button_success font-weight-bold">Book Free Demo</a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </template>
+         <template  id = "cover_back"  inherit_id = "website.snippets"  name = "back cover" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.cover_banner"  /> 
+                </xpath> 
+        </template>
+          <!-- help kids-->
+        <template id="help_kids" name="help kids"> 
+            <section>
+                <section class="hel_kids">
+                    <div class="container my-5 py-5 text-center" >
+                            <h3 class="font-weight-bold pb-4" style="margin-top: 10%;">Help Your Children Achieve Top Grades</h3>
+                            <div class="row " style="margin-bottom: 10%;">
+                                <div class="col-sm-12 col-md-4 col-lg-4 mt-5 mb-5">
+                                        <img class="img-fluid w-25 mb-4" src="/mytutor/static/img/Advanced_img.png" alt="Card image cap"/>
+                                        <h4 class="font-weight-bold">Advanced Child-Centred Learning </h4>
+                                        <p class="card-text">Our programme puts the child at the centre of their learning, and facilitates learning creating resilient independent learners</p>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 mt-5 mb-5">
+                                    <img class="img-fluid w-25 mb-4" src="/mytutor/static/img/continuous.png" alt="Card image cap"/>
+                                    <h4 class="font-weight-bold">Continuous Academic Development</h4>
+                                    <p class="card-text">Tutor My Future trains your child to achieve their full potential by providing continuous assessments and 
+                                        performance feedback. This accelerates your child’s progress and ensures their future exam success.</p>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 mt-5 mb-5">
+                                    <img class="img-fluid w-25 mb-4" src="/mytutor/static/img/home_study_house.png" alt="Card image cap"/>
+                                    <h4 class="font-weight-bold">Home Study Programme</h4>
+                                    <p class="card-text">Our programme enables children from age 5-17 years old create their own personalised timetable, to focus areas of weakness to improve knowledge and performance. They can access the programme from any location at any time to watch their English, Mathematics, and Science lessons, to complete their assignments. 
+                                        Our curriculum is wide and includes 10 additional subjects, such as Business, ICT, Spanish, French, and others.</p>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+            </section>
+        </template>
+         <template  id = "help_kids_sn"  inherit_id = "website.snippets"  name = "help_snippets" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.help_kids"  /> 
+                </xpath> 
+        </template>
+         <!-- progression-->
+        <template id="progress_section" name="step of progression"> 
+            <section>
+                    
+                    <section class="progress_section bg_aside_left">
+                        <div class="row mr-0">
+                            <div class="col-sm-12 col-md-5 col-lg-4 p-5 mt-4 ml-4 m-auto text-white p_made">
+                                    <div class="container w-75">
+                                        <div class="text-left pl-0">
+                                            <img src="/mytutor/static/img/progress_made_guaranted.png" class="rounded img-fluid w-25" alt="" srcset=""/>
+                                        </div>
+                                        <div class="pl-1">
+                                            <h4 class="font-weight-bold">Future Progress and Achievement Guaranteed</h4>
+                                            <p>All our students improve their grades and learn how to achieve top grades with our online learning platform</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            
+                            <div class="col-sm-12 col-md-7 col-lg-8 img_left_bloc">
+                                <!-- <div class="overlay_white"></div> -->
+                            </div>
+                        </div>
+                    </section>
+            </section>
+
+        </template>
+         <template  id = "progress step"  inherit_id = "website.snippets"  name = "snippet progress" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.progress_section"  /> 
+                </xpath> 
+        </template>
+
+         <!-- transition-->
+        <template id="transition_setp" name="snippet transition"> 
+            <section>
+                    <section class="transition bg_aside_transition" >
+                        <div class="container-fluid p-5">
+                            <div class="row mr-0">
+
+                                <div class="col-sm-12 col-md-12 col-lg-2 text-center">
+                                    <img src="/mytutor/static/img/1603110817178.jpg" class="img-fluid avatar" alt="" srcset="" />
+                                    <p class="mb-0">
+                                        <small class="font-weight-bold">
+                                            Katya Emanuel
+                                        </small>
+                                    <p class="pt-0">
+                                        <span class="fa fa-star text-warning"></span>
+                                        <span class="fa fa-star text-warning"></span>
+                                        <span class="fa fa-star text-warning"></span>
+                                        <span class="fa fa-star text-warning"></span>
+                                        <span class="fa fa-star text-warning"></span>
+                                    </p>
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-8 py-5 text_par">
+                                    <p class="p-0">
+                                        "Tutor My Future has been such a great tool which my 7-year-old absolutely loves! Not only is it easy for her to navigate but she 
+                                        is excited to do her lessons. Absolutely recommend to anyone interested in extra lessons 
+                                        for their children! Affordable and done from home; making it something to fill their afternoons when back from school!"
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-2 py-5 text_par" >
+                                    <a href="#" class="btn bg_button_success mt-3 font-weight-bold">Book a free demo</a>   
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+            </section>
+        </template>
+         <template  id = "transition snippset"  inherit_id = "website.snippets"  name = "snippet_trans" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.transition_setp"  /> 
+                </xpath> 
+        </template>
+
+        <!-- cours -->
+        <template id="course" name="bloc course"> 
+            <section>
+                <section class="bloc_course py-5">
+                    <div class="container">
+                        <h4 class="font-weight-bold display-4 mb-4" style="font-size: 1.8rem;margin-top: 3%;">How We Help Your Child</h4>
+                        <div class="container mb-5" style="width: 90%;">
+                            <div class="row" style="margin-bottom: 10%;">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex mt-4">
+                                        <div class="card flex" data-sr-id="10"
+                                            style="visibility: visible; transform: none; opacity: 1; transition: none 0s ease 0s;box-shadow: 6px 9px 14px 0px rgba(46,61,73,0.15);">
+                                            <div class="card-body">
+                                                <div class="d-flex text-hover-success">
+                                                    <div class="w-50  gd-success align-top"> 
+                                                        <img src="/mytutor/static/img/img_one.png" class="img-fluid w-75" alt="" srcset=""/> 
+                                                    </div>
+                                                    <div class="flex align-items-center ">
+                                                        <h4 class="font-weight-bold" style="font-size: 1rem;">Revision</h4>
+                                                        <p class=" mt-2" style="font-size: 0.8rem;">
+                                                            Tutor My Future provides the support your child requires to pass Entrance Exams, IGCSE, SATs, SSCE, BECE
+                                                        </p>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex mt-4">
+                                        <div class="card flex" data-sr-id="10"
+                                            style="visibility: visible; transform: none; opacity: 1; transition: none 0s ease 0s;box-shadow: 6px 9px 14px 0px rgba(46,61,73,0.15);">
+                                            <div class="card-body">
+                                                <div class="d-flex text-hover-success">
+                                                    <div class="w-50  gd-success align-top"> 
+                                                        <img src="/mytutor/static/img/improve.png" class="img-fluid w-75" alt="" srcset=""/> 
+                                                    </div>
+                                                    <div class="flex align-items-center ">
+                                                        <h4 class="font-weight-bold" style="font-size: 1rem;">Improve grades</h4>
+                                                        <p class=" mt-2" style="font-size: 0.8rem;">
+                                                            Tutor My Future’s continuous student diagnostics and assessments enable us to track your child’s progress and 
+                                                            focus on topics which they find challenging. Students and parents receive weekly reports via email.
+                                                        </p>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex mt-4">
+                                        <div class="card flex" data-sr-id="10"
+                                            style="visibility: visible; transform: none; opacity: 1; transition: none 0s ease 0s;box-shadow: 6px 9px 14px 0px rgba(46,61,73,0.15);">
+                                            <div class="card-body">
+                                                <div class="d-flex text-hover-success">
+                                                    <div class="w-50  gd-success align-top"> 
+                                                        <img src="/mytutor/static/img/Homework.png" class="img-fluid w-75" alt="" srcset=""/> 
+                                                    </div>
+                                                    <div class="flex align-items-center ">
+                                                        <h4 class="font-weight-bold" style="font-size: 1rem;">Homework help</h4>
+                                                        <p class=" mt-2" style="font-size: 0.8rem;">
+                                                            The Tutor My Future programmes provides pre-recorded instructional lessons, 
+                                                            knowledge, and resources to help your child enhance their homework assignments.
+                                                        </p>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex mt-4">
+                                        <div class="card flex" data-sr-id="10"
+                                            style="visibility: visible; transform: none; opacity: 1; transition: none 0s ease 0s;box-shadow: 6px 9px 14px 0px rgba(46,61,73,0.15);">
+                                            <div class="card-body">
+                                                <div class="d-flex text-hover-success">
+                                                    <div class="w-50  gd-success align-top"> 
+                                                        <img src="/mytutor/static/img/Nursery.png" class="img-fluid w-75" alt="" srcset=""/> 
+                                                    </div>
+                                                    <div class="flex align-items-center ">
+                                                        <h4 class="font-weight-bold" style="font-size: 1rem;">Nursery and Preschool </h4>
+                                                        <p class=" mt-2" style="font-size: 0.8rem;">
+                                                            Our programme is child-friendly and encourages children from age 5 to enjoy learning at an early age via interactive games.
+                                                        </p>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex mt-4">
+                                        <div class="card flex" data-sr-id="10"
+                                            style="visibility: visible; transform: none; opacity: 1; transition: none 0s ease 0s;box-shadow: 6px 9px 14px 0px rgba(46,61,73,0.15);">
+                                            <div class="card-body">
+                                                <div class="d-flex text-hover-success">
+                                                    <div class="w-50  gd-success align-top"> 
+                                                        <img src="/mytutor/static/img/house_alone.png" class="img-fluid w-75" alt="" srcset=""/> 
+                                                    </div>
+                                                    <div class="flex align-items-center ">
+                                                        <h4 class="font-weight-bold" style="font-size: 1rem;">Home-Schooling</h4>
+                                                        <p class=" mt-2" style="font-size: 0.8rem;">
+                                                            From the comfort and safety of home children can enjoy learning and achieving; they can track their progress and prepare for assessments in their subjects.                                            </p>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex mt-4">
+                                        <div class="card flex" data-sr-id="10"
+                                            style="visibility: visible; transform: none; opacity: 1; transition: none 0s ease 0s;box-shadow: 6px 9px 14px 0px rgba(46,61,73,0.15);">
+                                            <div class="card-body">
+                                                <div class="d-flex text-hover-success">
+                                                    <div class="w-50  gd-success align-top"> 
+                                                        <img src="/mytutor/static/img/special_needs.png" class="img-fluid w-75" alt="" srcset=""/> 
+                                                    </div>
+                                                    <div class="flex align-items-center ">
+                                                        <h4 class="font-weight-bold" style="font-size: 1rem;">Modern Foreign Languages</h4>
+                                                        <p class=" mt-2" style="font-size: 0.9rem;">
+                                                            With Tutor My Future your child will have the opportunity to study a modern foreign language. Spanish, French, and German.
+                                                        </p>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </section>
+        </template>
+         <template  id = "course_block"  inherit_id = "website.snippets"  name = "course snippet" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.course"  /> 
+                </xpath> 
+        </template>
+         <!-- how to get-->
+        <template id="how_to_get" name="how to get">
+            <section>
+                <div class="container">
+                    <h4  class="font-weight-bold display-4  mb-5" style="font-size: 1.8rem;margin-top:2%;">How To Enrol Your Child</h4>
+                    <div class="product-item">
+                        <div class="product-item-title d-flex ">
+                            <div class="bg-faded p-4  mr-auto rounded intro-text bloc_left_text" >
+                                <h2 class="section-heading mb-0">
+                                    <span class="section-heading-upper font-weight-bold">1</span> <br/>
+                                    <span class="section-heading-lower  h4">Place a request</span>
+                                    <p class="section-heading-lower text-lowercase lead">
+                                        Click here to book <br/> a free online programme tour
+                                    </p>
+                                </h2>
+                            
+                            </div>
+                        </div>
+                        <img  class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0 w-50" src="/mytutor/static/img/1603111079335.jpg" alt=""/>
+                    
+                        
+                    </div>
+                    <div class="product-item mt-5">
+                        <div class="product-item-title d-flex">
+                        <div class="bg-faded p-5  ml-auto rounded intro-text bloc_right_text">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper font-weight-bold">2</span> <br/>
+                                <span class="section-heading-lower  h4">Get the most qualified</span>
+                                <p class="section-heading-lower text-lowercase lead">
+                                    We provide qualified tutors to work one to one or in small groups to support your child
+                                </p>
+                            </h2>
+                        </div>
+                        </div>
+                        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0 w-50" src="/mytutor/static/img/1603110883304.jpg"  alt=""/>
+                    </div>
+                    <div class="product-item mt-5">
+                        <div class="product-item-title d-flex ">
+                            <div class="bg-faded p-4  mr-auto rounded intro-text bloc_left_text">
+                                <h2 class="section-heading mb-0">
+                                    <span class="section-heading-upper font-weight-bold">3</span> <br/>
+                                    <span class="section-heading-lower  h4">Watch Your Child Achieve</span>
+                                    <p class="section-heading-lower text-lowercase lead">
+                                        We provide weekly reports to track your child's progress as well as instant feedback to your child
+                                    </p>
+                                </h2>
+                            
+                            </div>
+                        </div>
+                        <img  class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0 w-50" src="/mytutor/static/img/1603110898580.jpg" alt=""/>
+                    </div>
+                </div>
+            </section>
+        </template>
+         <template  id = "course_how_to_get"  inherit_id = "website.snippets"  name = "how_to_get snippet" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.how_to_get"  /> 
+                </xpath> 
+        </template>
+
+         <!-- video-->
+        <template id="video" name="video">
+            <section>
+                <div class="container p-5 intro-text mt-5">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="embed-responsive embed-responsive-16by9 intro-text p-5 bg-white">
+                                <iframe class="embed-responsive-item" src="/mytutor/static/video/temoignage.mp4" ></iframe>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p class="lead text-justify temoignage" style="font-size: 1rem;">
+                            My name is Toyosi, I am 13 years old, and I live in the United Kingdom with my mum, dad, and siblings.
+                            I have been using the online tutorial programme since September 2019.
+                            I attend Secondary School and each week I complete my weekly English and Maths exercises.
+                            At the end of each week I receive a report which tells me how I have performed in those exercises. I can improve my grades my watching the pre-recorded English and Maths lessons within the programme. 
+                            The online tutorial helps me to complete my homework, and revisit topics I have studied at school. I can access the programme anytime and anywhere.  
+                            The tutorial programme enables me to study other subjects besides Maths and English, such as Physics, Chemistry, Biology, Computing, Health and Social Care, French, Spanish, History and Geography.
+                            I have received Certificates of Excellence where I have achieved grades above 80%. I enjoy the programme because it has helped to improve my grades.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+             </section>
+        </template>
+        <template  id = "course_video"  inherit_id = "website.snippets"  name = "video snippet" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.video"  /> 
+                </xpath> 
+        </template>
+          <!-- how choose us -->
+        <template id="how_choose_us" name="how_choose_us"> 
+            <section>
+                     <style>
+                        .table-sm td,.table-sm th{
+                            font-size: 0.9rem;
+                        }
+                        .table-sm  .mul,.table-sm .mul{
+                            font-size: 0.8rem;
+                        }
+                    </style>
+                    <section class="choos_us">
+                        <div class="container my-5 py-4" style="max-width: 1155px" >
+                            <h3 class="font-weight-bold mb-5" style="margin-top: 5%;">Why choose Us?</h3>
+                            <table class="table table-sm  table-bordered table-striped table-responsive">
+                            
+                                <tbody>
+                                <tr>
+                                    <th class="mul bg_button_success text-white" scope="col">Our services include</th>
+                                    <td>English Lesson</td>
+                                    <td>Maths Lessons</td>
+                                    <td>Science Lessons</td>
+                                    <td>Weekly Reports</td>
+                                    <td>Assessments</td>
+                                    <td class="mul">Round-the-clock access</td>
+                                    <td>Exam Preparation</td>
+                                    <td>Progress Checks </td>
+                                    <td>Marking</td>
+                                    <td>Homework Support</td>
+                                    <td>Revision Testing</td>
+                                    <td class="mul">Interactive Learning Games</td>
+                                    <td>Family Packages</td>
+                                    <td>Virtual Classrooms</td>
+                                    <td>One to One </td>
+                                </tr>
+                                <tr>
+                                    <th class="mul bg_button_success text-white" scope="col">TUTOR MY FUTURE</th>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                    <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
+                                </tr>
+                                
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+            </section>
+        </template>
+        <template  id = "how_choose"  inherit_id = "website.snippets"  name = "snippet how_choose" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.how_choose_us"  /> 
+                </xpath> 
+        </template>
+          <!-- about temoignage-->
+        <template id="about_temoignage" name="about testimonial">
+            <section>
+                <section class="about_testimonial">
+                    <div class="container">
+                        <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-6 text-center p-4">
+                                    <img src="/mytutor/static/img/LoisLucambe.png" class="img-fluid w-75" alt="" srcset=""/>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-6" style="padding-top: 5%;">
+                                    <p class="text-justify lead pl-3 pr-4 pt-4">
+                                        Our Top Tutor and Business Proprietor
+                                        Madam Lucambe has been an Educator for 20 years, specialising in teaching literacy to 
+                                        children and adults. She has launched her home-study programme in the UK to help children to “enjoy and achieve” and attain academic success. Her students are confident, motivated, and resilient.
+                                        Madam Lucambe attained a First-Class Bachelor’s Degree at Greenwich University in Education Studies and has a Foundation Degree in Learning Support. She is passionate about learning and helping young people fulfil their full potential. 
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                </section>
+             </section>
+        </template>
+        <template  id = "testimonail_snippets"  inherit_id = "website.snippets"  name = "testy snippet" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.about_temoignage"  /> 
+                </xpath> 
+        </template>
+
+         <!-- transition two-->
+        <template id="transition_step_two" name="snippet transition two"> 
+            <section>
+                   <section class="footer_transition">
+                        <div class="container text-center p-5 bg_aside_transition" >
+                                <p class="p-5">
+                                    Tutor MY Future provides an affordable and compete learning support service in English, Maths, and Science for 
+                                    children aged 5-16, as well as older students wishes to improve in these subjects. Our unique effective combination 
+                                    of smart technology and on demand one to one support from qualified tutors ensure that students will improve their grades 
+                                    and secure a successful future. Join Tutor My Future today, help your child achieve top grades.
+                                </p>
+                                <a href="" class="btn bg_button_success "> Book A Free Demo</a>
+                                <div class="col-lg-4 text-left offset-lg-4 col-md-4 offset-md-4 col-sm-4 offset-sm-4 mt-3 bloc_tem">
+                                    <img src="mytutor/static/img/continuous.png" class="img-fluid float-left" style="width: 15%;" alt="" srcset=""/>
+                                    <small class="font-weight-bold " style="font-size: 0.7rem;">
+                                        Higly qualified Tutors guaranted for your request
+                                    </small>
+                                </div>
+                        </div>
+                    </section>
+            </section>
+        </template>
+        <template  id = "transition_two snippset"  inherit_id = "website.snippets"  name = "snippet_trans_two" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.transition_step_two"  /> 
+                </xpath> 
+        </template>
+
+        <template id="question" name="question parent">
+            <section>
+                 <section class="questions_parents">
+                    <div class="container my-5 py-5">
+                        <h3 class="capitalize font-weight-bold mb-5">Questions parents ask</h3>
+                        <div class="mt-4 mb-4 w-50">
+                            <small class="font-weight-bold" style="font-size: 1rem;">Where will the lessons hold?</small>
+                            <p>
+                                All lessons are held online so you don't have to travael or have a tutor come to your 
+                            </p>
+                        </div>
+
+                        <div class="mt-4 mb-4 w-50">
+                            <small class="font-weight-bold" style="font-size: 1rem;">How does payment work ?</small>
+                            <p>
+                                The monthly access to the online leaning programme cost 30,000 Nigerian Naira
+                            </p>
+                        </div>
+
+                        <div class="bg_aside_transition transition_two">
+                            <div class="row pl-5 pr-5 pt-3 pb-3">
+                                <div class="col-sm-12 col-md-6 col-lg-6 text-left">
+                                    <small class="font-weight-bold" >Have questions or inquiries? Contact us now ?</small>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-6 text-right">
+                                    <small >whatsApp +447916120034</small>
+                                    <small><a href="#" class="text-info pl-2"> info@tutormyfuture.com</a></small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+            </section>
+        </template>
+        <template  id = "question_snippset"  inherit_id = "website.snippets"  name = "question snippet" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.question"  /> 
+                </xpath> 
+        </template>
+
+
+        <template id="footer_block" name="footer banner">
+            <section>
+                 <section class="footer_banner">
+                    <div class="container">
+                        <div class="bloc_right_two  text-white col-lg-6 offset-lg-7">
+                            <h2 class="pb-0  font-weight-bold titre_foot">Boost your child's results</h2>
+                            <h4 class="h4">Invest in their future success</h4>
+                            <a href="#" class="btn bg_button_success btn-lg font-weight-bold">Book Free Demo</a>
+                        </div>
+                    </div>
+                </section>
+                <footer class="bg_aside_transition transition_two">
+                    <div class="row mr-0 pl-5 pr-5 pt-3 pb-3">
+                        <div class="col-sm-12 col-md-6 col-lg-6 text-left">
+                            <small class="font-weight-bold" >Tutoria Limited</small>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 text-right">
+                            <small >copy form terms  privacy from :</small>             
+                            <small><a href="#" class="text-info pl-2">www.keystagesuccess.co.uk</a></small>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </template>
+        <template  id = "footer_snippset"  inherit_id = "website.snippets"  name="footer snippet" > 
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
+                    <t  t-snippet = "mytutor.footer_block"  /> 
+                </xpath> 
+        </template>
+
+      
+    </data>
+</odoo>
