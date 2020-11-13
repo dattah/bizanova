@@ -8,8 +8,8 @@
                     <div class="full-banniere">
                         <div class="container py-5 pt-5">
                             <div class="bloc_right  my-5 text-white col-lg-6">
-                                <h4 class="pb-0 display-4 font-weight-bold titre_home">Online Home-Schooling Centre of Excellence</h4>
-                                <p class="h4 pt-0">Secure your child’s future success with round-the-clock access to the curriculum!</p>
+                                <h4 class="pb-0 display-4 font-weight-bold titre_home text-white">Online Home-Schooling Centre of Excellence</h4>
+                                <p class="h4 pt-0 text-white">Secure your child’s future success with round-the-clock access to the curriculum!</p>
                                 <a href="#" class="btn btn-lg bg_button_success font-weight-bold">Book Free Demo</a>
                             </div>
                         </div>
@@ -519,8 +519,8 @@
                  <section class="footer_banner">
                     <div class="container">
                         <div class="bloc_right_two  text-white col-lg-6 offset-lg-7">
-                            <h2 class="pb-0  font-weight-bold titre_foot">Boost your child's results</h2>
-                            <h4 class="h4">Invest in their future success</h4>
+                            <h2 class="pb-0  font-weight-bold titre_foot text-white">Boost your child's results</h2>
+                            <h4 class="h4 text-white">Invest in their future success</h4>
                             <a href="#" class="btn bg_button_success btn-lg font-weight-bold">Book Free Demo</a>
                         </div>
                     </div>
