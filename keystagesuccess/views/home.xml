@@ -329,7 +329,7 @@
                             <!-- <div class="embed-responsive embed-responsive-16by9 intro-text p-5 bg-white">
                                 <iframe class="embed-responsive-item" src="video/toysintestimonial_v2.mp4"></iframe>
                             </div> -->
-                            <video class="video-fluid z-depth-1" controls>
+                            <video class="video-fluid z-depth-1" controls="true" autoplay="0">
                                 <source src="/keystagesuccess/static/video/toysintestimonial_v2.mp4" type="video/mp4" />
                             </video>
                         </div>
