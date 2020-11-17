@@ -487,7 +487,7 @@
                 <section class="student_report">
                     <div class="container my-3 py-2">
                         <h3 class="font-weight-bold mb-5" style="margin-top: 5%;">Student Report</h3>
-                        <img src="/keystagesuccess/static/img/WeeklyReport.png" class="img-fluid" alt="" srcset="">
+                        <img src="/keystagesuccess/static/img/WeeklyReport.png" class="img-fluid" alt="" srcset=""/>
                         <p class="mt-5">
                             <ul class="list-group">
                                 <li class="font-weight-bold" style="font-size:1.5rem;">Complete peace of mind in learning support for your children</li>
@@ -546,7 +546,7 @@
                                 </p>
                                 <a href="" class="btn bg_button_success "> Book A Free Demo</a>
                                 <div class="col-lg-4 text-left offset-lg-4 col-md-4 offset-md-4 col-sm-4 offset-sm-4 mt-3 bloc_tem">
-                                    <img src="mytutor/static/img/continuous.png" class="img-fluid float-left" style="width: 15%;" alt="" srcset=""/>
+                                    <img src="/keystagesuccess/static/img/continuous.png" class="img-fluid float-left" style="width: 15%;" alt="" srcset=""/>
                                     <small class="font-weight-bold " style="font-size: 0.7rem;">
                                         Higly qualified Tutors guaranted for your request
                                     </small>
