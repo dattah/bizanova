@@ -9,11 +9,8 @@
     </template>
     <template id="my_js" inherit_id="website.assets_editor" name="My Js">
         <xpath expr="script[last()]" position="after">
-             <!-- <script src="/mytutor/static/js/js_trois.js"/> -->
+             <script src="/keystagesuccess/static/js/script.js"/>
 
-            <!-- JavaScript Libraries -->
-       
-         
         </xpath>
     </template>
     
