@@ -19,7 +19,7 @@
         </template>
         <template  id = "cover_back_home"  inherit_id = "website.snippets"  name = "home cover" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.firstHome"  /> 
+                    <t  t-snippet = "keystagesuccess.firstHome"  /> 
                 </xpath> 
         </template>
           <!-- help kids-->
@@ -62,7 +62,7 @@
         </template>
         <template  id = "help_kids_sn"  inherit_id = "website.snippets"  name = "help_snippets" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.help_kids"  /> 
+                    <t  t-snippet = "keystagesuccess.help_kids"  /> 
                 </xpath> 
         </template>
          <!-- progression-->
@@ -92,7 +92,7 @@
         </template>
         <template  id = "progress step"  inherit_id = "website.snippets"  name = "snippet progress" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.progress_section"  /> 
+                    <t  t-snippet = "keystagesuccess.progress_section"  /> 
                 </xpath> 
         </template>
 
@@ -135,7 +135,7 @@
         </template>
         <template  id = "transition snippset"  inherit_id = "website.snippets"  name = "snippet_trans" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.transition_setp"  /> 
+                    <t  t-snippet = "keystagesuccess.transition_setp"  /> 
                 </xpath> 
         </template>
 
@@ -257,7 +257,7 @@
         </template>
         <template  id = "course_block"  inherit_id = "website.snippets"  name = "course snippet" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.course"  /> 
+                    <t  t-snippet = "keystagesuccess.course"  /> 
                 </xpath> 
         </template>
          <!-- how to get-->
@@ -316,7 +316,7 @@
         </template>
          <template  id = "course_how_to_get"  inherit_id = "website.snippets"  name = "how_to_get snippet" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.how_to_get"  /> 
+                    <t  t-snippet = "keystagesuccess.how_to_get"  /> 
                 </xpath> 
         </template>
 
@@ -348,7 +348,7 @@
         </template>
         <template  id = "course_video"  inherit_id = "website.snippets"  name = "video snippet" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.video"  /> 
+                    <t  t-snippet = "keystagesuccess.video"  /> 
                 </xpath> 
         </template>
           <!-- how choose us -->
@@ -479,7 +479,7 @@
         </template>
         <template  id = "how_choose"  inherit_id = "website.snippets"  name = "snippet how_choose" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.how_choose_us"  /> 
+                    <t  t-snippet = "keystagesuccess.how_choose_us"  /> 
                 </xpath> 
         </template>
         <template id="student_report" name="student report"> 
@@ -503,7 +503,7 @@
         </template>
         <template  id = "student"  inherit_id = "website.snippets"  name = "snippet student" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.student_report"  /> 
+                    <t  t-snippet = "keystagesuccess.student_report"  /> 
                 </xpath> 
         </template>
           <!-- about temoignage-->
@@ -529,7 +529,7 @@
         </template>
         <template  id = "testimonail_snippets"  inherit_id = "website.snippets"  name = "testy snippet" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.about_temoignage"  /> 
+                    <t  t-snippet = "keystagesuccess.about_temoignage"  /> 
                 </xpath> 
         </template>
 
@@ -557,7 +557,7 @@
         </template>
         <template  id = "transition_two snippset"  inherit_id = "website.snippets"  name = "snippet_trans_two" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.transition_step_two"  /> 
+                    <t  t-snippet = "keystagesuccess.transition_step_two"  /> 
                 </xpath> 
         </template>
 
@@ -599,7 +599,7 @@
         </template>
         <template  id = "question_snippset"  inherit_id = "website.snippets"  name = "question snippet" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.question"  /> 
+                    <t  t-snippet = "keystagesuccess.question"  /> 
                 </xpath> 
         </template>
 
@@ -630,7 +630,7 @@
         </template>
         <template  id = "footer_snippset"  inherit_id = "website.snippets"  name="footer snippet" > 
                 <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "mytutor.footer_block"  /> 
+                    <t  t-snippet = "keystagesuccess.footer_block"  /> 
                 </xpath> 
         </template>
 
