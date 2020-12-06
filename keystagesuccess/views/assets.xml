@@ -1,0 +1,18 @@
+<odoo>
+    <template id="menu_mytutor" name="menu_mytutor" inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+        
+            <!-- Main Stylesheet File -->
+            <link href="/keystagesuccess/static/scss/style.css" rel="stylesheet"/>
+        
+        </xpath>
+    </template>
+    <template id="my_js" inherit_id="website.assets_editor" name="My Js">
+        <xpath expr="script[last()]" position="after">
+             <script src="/keystagesuccess/static/js/script.js"/>
+
+        </xpath>
+    </template>
+    
+ 
+</odoo>

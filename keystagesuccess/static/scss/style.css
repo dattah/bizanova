@@ -1,0 +1,295 @@
+.full-banniere {
+    background: url('/keystagesuccess/static/img/KSS Student.jpg') no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    height: 100vh;
+}
+
+.overlay {
+    background: rgb(83, 83, 83);
+    opacity: 0.4;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* .bloc_right {
+    padding-top: 35%;
+} */
+
+.titre_home {
+    font-size: 2.8rem;
+}
+
+.img_left_bloc {
+    background: url('/keystagesuccess/static/img/1603110883304.jpg') no-repeat;
+    background-size: 100%;
+    height: 55vh;
+    background-position: top left;
+}
+
+.overlay_white {
+    background: #585552;
+    opacity: 0.2;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55vh;
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.avatar_fluid {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.footer_banner {
+    background: url('/keystagesuccess/static/img/iStock-696315038.jpg') no-repeat;
+    background-size: 100%;
+    background-position: 0%;
+    width: 100%;
+    height: 50vh;
+}
+
+.bloc_right_two {
+    padding-top: 15%;
+}
+
+.bg_button_success {
+    background-color: #36B37E;
+    color: white;
+}
+
+.bg_tr_success {
+    background-color: #5ec298d8;
+    color: white;
+}
+
+.bg_tr_botom__success {
+    background-color: #6bd4c6d8;
+    color: white;
+}
+
+.bg_tr_botom_second__success {
+    background-color: #56d6b6;
+    color: white;
+}
+
+.bg_tr_botom_three__success {
+    background-color: #40cbcf;
+    color: white;
+}
+
+.bg_aside_left {
+    background-color: #65B47E;
+}
+
+.bg_aside_transition {
+    background-color: #F2F2F2;
+}
+
+.bloc_left_text,
+.bloc_right_text {
+    width: 40%;
+}
+
+.bloc_tem {
+    padding-left: 6%;
+    width: 28%;
+}
+
+@media (min-width: 992px) {
+    .product-item .product-item-title {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -3rem;
+    }
+}
+
+.bg-faded {
+    background-color: rgba(255, 255, 255, .85);
+}
+
+.section-heading {
+    text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+    .product-item .product-item-img {
+        position: relative;
+        z-index: 0;
+        max-width: 60vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .product-item .product-item-description {
+        position: relative;
+        z-index: 1;
+        margin-top: -3rem;
+        max-width: 50vw;
+    }
+}
+
+.intro-text {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.video-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.titre_foot {
+    padding-top: 1%;
+}
+
+
+/****************media query responsive ****************/
+
+@media (min-width: 924px) {
+    .bloc_right {
+        padding-top: 0%;
+        padding-bottom: 5%;
+    }
+}
+
+@media (min-width:1025px) {
+    .bloc_right {
+        padding-top: 0%;
+        padding-bottom: 5%;
+    }
+}
+
+@media (max-width:768px) {
+    .full-banniere {
+        background: url('/keystagesuccess/static/img/KSS Student.jpg') no-repeat;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 100vh;
+    }
+    .temoignage {
+        height: 45vh;
+        overflow: auto;
+    }
+    .p_made {
+        padding: 0 !important;
+        margin-top: 20px !important;
+    }
+    .img_left_bloc {
+        height: 30vh;
+    }
+    .bg_aside_transition {
+        text-align: center;
+    }
+    .text_par {
+        padding-top: 0px !important;
+    }
+    .bloc_left_text,
+    .bloc_right_text {
+        width: 60%;
+    }
+    .bloc_tem {
+        padding-left: 4%;
+        width: 38%;
+    }
+    .bloc_right_two {
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+    .titre_foot {
+        padding-top: 30%;
+    }
+}
+
+@media(max-width:540px) {
+    .titre_home {
+        font-size: 2rem;
+    }
+    .bloc_right p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:414px) {
+    .full-banniere {
+        background: url('/keystagesuccess/static/img/KSS Student.jpg') no-repeat;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 100vh;
+    }
+    .temoignage {
+        margin-top: 10px;
+    }
+    .titre_home {
+        font-size: 2.5rem;
+        margin-top: 2%;
+    }
+    .section-heading span {
+        font-size: 1rem;
+    }
+    .section-heading p {
+        font-size: 0.8rem;
+    }
+    .product-item-title .bg-faded {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .bloc_left_text,
+    .bloc_right_text {
+        width: 100%;
+        margin: 10px !important;
+        margin-bottom: 0px !important;
+    }
+    .footer_transition .p-5 {
+        padding: 15px !important;
+    }
+    .bloc_tem {
+        padding-left: 20% !important;
+        width: 80%;
+    }
+    .transition_two .text-right,
+    .transition_two .text-left {
+        text-align: center !important;
+    }
+    .titre_foot {
+        font-size: 2rem;
+        margin-top: 20%;
+    }
+    .titre_home {
+        font-size: 2rem;
+    }
+    .bloc_right p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:360px) {
+    .titre_home {
+        font-size: 1.8rem;
+        margin-top: 2%;
+    }
+    .bloc_right .h4,
+    .bloc_right_two .h4 {
+        font-size: 0.8rem;
+    }
+    .titre_foot {
+        font-size: 1.3rem;
+        padding-top: 20%;
+    }
+}
