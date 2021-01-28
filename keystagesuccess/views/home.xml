@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <!-- banner-->
-        <template id="firstHome" name="home image back"> 
+        <template id="firstHome" name="home image back">
             <section>
                     <div class="overlay"></div>
                     <div class="full-banniere">
@@ -17,13 +17,13 @@
                     </div>
             </section>
         </template>
-        <template  id = "cover_back_home"  inherit_id = "website.snippets"  name = "home cover" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.firstHome"  /> 
-                </xpath> 
+        <template  id = "cover_back_home"  inherit_id = "website.snippets"  name = "home cover" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.firstHome"  />
+                </xpath>
         </template>
           <!-- help kids-->
-        <template id="help_kids" name="help kids"> 
+        <template id="help_kids" name="help kids">
             <section>
                 <section class="hel_kids">
                     <div class="container my-5 py-5 text-center">
@@ -40,8 +40,8 @@
                                 <img class="img-fluid w-25 mb-4" src="/keystagesuccess/static/img/continuous.png" alt="Card image cap" />
                                 <h4 class="font-weight-bold">Continuous Academic Development</h4>
                                 <p class="card-text">
-                                    Tutor My Future trains your child to achieve their full potential by 
-                                    providing continuous assessments and performance feedback. This accelerates 
+                                    Tutor My Future trains your child to achieve their full potential by
+                                    providing continuous assessments and performance feedback. This accelerates
                                     your child’s progress and ensures their future exam success.
                                 </p>
                             </div>
@@ -49,9 +49,9 @@
                                 <img class="img-fluid w-25 mb-4" src="/keystagesuccess/static/img/home_study_house.png" alt="Card image cap" />
                                 <h4 class="font-weight-bold">Home Study Programme</h4>
                                 <p class="card-text">
-                                    Our program enables children aged 5-17 years old to create their own 
+                                    Our program enables children aged 5-17 years old to create their own
                                     personalised timetable, focus on areas of weakness to improve
-                                     knowledge and grades. They can access the program from any location 
+                                     knowledge and grades. They can access the program from any location
                                      round the clock to watch lessons and complete assessments.
                                 </p>
                             </div>
@@ -60,13 +60,13 @@
                 </section>
             </section>
         </template>
-        <template  id = "help_kids_sn"  inherit_id = "website.snippets"  name = "help_snippets" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.help_kids"  /> 
-                </xpath> 
+        <template  id = "help_kids_sn"  inherit_id = "website.snippets"  name = "help_snippets" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.help_kids"  />
+                </xpath>
         </template>
          <!-- progression-->
-        <template id="progress_section" name="step of progression"> 
+        <template id="progress_section" name="step of progression">
             <section>
                     <section class="progress_section bg_aside_left">
                         <div class="row mr-0">
@@ -90,14 +90,14 @@
             </section>
 
         </template>
-        <template  id = "progress step"  inherit_id = "website.snippets"  name = "snippet progress" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.progress_section"  /> 
-                </xpath> 
+        <template  id = "progress step"  inherit_id = "website.snippets"  name = "snippet progress" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.progress_section"  />
+                </xpath>
         </template>
 
          <!-- transition-->
-        <template id="transition_setp" name="snippet transition"> 
+        <template id="transition_setp" name="snippet transition">
             <section>
                     <section class="transition bg_aside_transition">
                         <div class="container-fluid p-5">
@@ -133,14 +133,14 @@
                     </section>
             </section>
         </template>
-        <template  id = "transition snippset"  inherit_id = "website.snippets"  name = "snippet_trans" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.transition_setp"  /> 
-                </xpath> 
+        <template  id = "transition snippset"  inherit_id = "website.snippets"  name = "snippet_trans" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.transition_setp"  />
+                </xpath>
         </template>
 
         <!-- cours -->
-        <template id="course" name="bloc course"> 
+        <template id="course" name="bloc course">
             <section>
                 <section class="bloc_course py-5">
                     <div class="container">
@@ -255,10 +255,10 @@
                 </section>
             </section>
         </template>
-        <template  id = "course_block"  inherit_id = "website.snippets"  name = "course snippet" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.course"  /> 
-                </xpath> 
+        <template  id = "course_block"  inherit_id = "website.snippets"  name = "course snippet" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.course"  />
+                </xpath>
         </template>
          <!-- how to get-->
         <template id="how_to_get" name="how to get">
@@ -314,10 +314,10 @@
                     </div>
             </section>
         </template>
-         <template  id = "course_how_to_get"  inherit_id = "website.snippets"  name = "how_to_get snippet" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.how_to_get"  /> 
-                </xpath> 
+         <template  id = "course_how_to_get"  inherit_id = "website.snippets"  name = "how_to_get snippet" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.how_to_get"  />
+                </xpath>
         </template>
 
          <!-- video-->
@@ -330,7 +330,7 @@
                                 <iframe class="embed-responsive-item" src="video/toysintestimonial_v2.mp4"></iframe>
                             </div> -->
                             <video class="video-fluid z-depth-1" controls="true">
-                                <source src="/keystagesuccess/static/video/toysintestimonial_v2.mp4" type="video/mp4" />
+                                <source src="/keystagesuccess/static/video/testimonial_v3.MOV" type="video/mov" />
                             </video>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6">
@@ -346,13 +346,13 @@
                 </div>
              </section>
         </template>
-        <template  id = "course_video"  inherit_id = "website.snippets"  name = "video snippet" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.video"  /> 
-                </xpath> 
+        <template  id = "course_video"  inherit_id = "website.snippets"  name = "video snippet" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.video"  />
+                </xpath>
         </template>
           <!-- how choose us -->
-        <template id="how_choose_us" name="how_choose_us"> 
+        <template id="how_choose_us" name="how_choose_us">
             <section>
                      <!-- <style>
                         .table-sm td,.table-sm th{
@@ -366,7 +366,7 @@
                         <div class="container my-5 py-4" style="max-width: 1155px" >
                             <h3 class="font-weight-bold mb-5" style="margin-top: 5%;">Why choose Us?</h3>
                             <table class="table table-sm  table-bordered table-striped table-responsive">
-                            
+
                                 <tbody>
                                 <tr>
                                     <th class="mul bg_button_success text-white" scope="col">Our services include</th>
@@ -404,7 +404,7 @@
                                     <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
                                     <td class="text-center"><span class="font-weigth-bold" style="font-size: 1.4rem;">YES</span></td>
                                 </tr>
-                                
+
                                 </tbody>
                             </table>
                         </div>
@@ -477,12 +477,12 @@
                     </section>
             </section>
         </template>
-        <template  id = "how_choose"  inherit_id = "website.snippets"  name = "snippet how_choose" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.how_choose_us"  /> 
-                </xpath> 
+        <template  id = "how_choose"  inherit_id = "website.snippets"  name = "snippet how_choose" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.how_choose_us"  />
+                </xpath>
         </template>
-        <template id="student_report" name="student report"> 
+        <template id="student_report" name="student report">
             <section>
                 <section class="student_report">
                     <div class="container my-3 py-2">
@@ -501,10 +501,10 @@
                 </section>
             </section>
         </template>
-        <template  id = "student"  inherit_id = "website.snippets"  name = "snippet student" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.student_report"  /> 
-                </xpath> 
+        <template  id = "student"  inherit_id = "website.snippets"  name = "snippet student" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.student_report"  />
+                </xpath>
         </template>
           <!-- about temoignage-->
         <template id="about_temoignage" name="about testimonial">
@@ -527,21 +527,21 @@
                 </section>
              </section>
         </template>
-        <template  id = "testimonail_snippets"  inherit_id = "website.snippets"  name = "testy snippet" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.about_temoignage"  /> 
-                </xpath> 
+        <template  id = "testimonail_snippets"  inherit_id = "website.snippets"  name = "testy snippet" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.about_temoignage"  />
+                </xpath>
         </template>
 
          <!-- transition two-->
-        <template id="transition_step_two" name="snippet transition two"> 
+        <template id="transition_step_two" name="snippet transition two">
             <section>
                     <section class="footer_transition">
                         <div class="container text-center p-5 bg_aside_transition" >
                                 <p class="p-5">
-                                    Tutor MY Future provides an affordable and compete learning support service in English, Maths, and Science for 
-                                    children aged 5-16, as well as older students wishes to improve in these subjects. Our unique effective combination 
-                                    of smart technology and on demand one to one support from qualified tutors ensure that students will improve their grades 
+                                    Tutor MY Future provides an affordable and compete learning support service in English, Maths, and Science for
+                                    children aged 5-16, as well as older students wishes to improve in these subjects. Our unique effective combination
+                                    of smart technology and on demand one to one support from qualified tutors ensure that students will improve their grades
                                     and secure a successful future. Join Tutor My Future today, help your child achieve top grades.
                                 </p>
                                 <a href="" class="btn bg_button_success "> Book A Free Demo</a>
@@ -555,10 +555,10 @@
                     </section>
             </section>
         </template>
-        <template  id = "transition_two snippset"  inherit_id = "website.snippets"  name = "snippet_trans_two" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.transition_step_two"  /> 
-                </xpath> 
+        <template  id = "transition_two snippset"  inherit_id = "website.snippets"  name = "snippet_trans_two" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.transition_step_two"  />
+                </xpath>
         </template>
 
         <template id="question" name="question parent">
@@ -597,10 +597,10 @@
                 </section>
             </section>
         </template>
-        <template  id = "question_snippset"  inherit_id = "website.snippets"  name = "question snippet" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.question"  /> 
-                </xpath> 
+        <template  id = "question_snippset"  inherit_id = "website.snippets"  name = "question snippet" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.question"  />
+                </xpath>
         </template>
 
 
@@ -628,12 +628,12 @@
                 </footer>
             </section>
         </template>
-        <template  id = "footer_snippset"  inherit_id = "website.snippets"  name="footer snippet" > 
-                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" > 
-                    <t  t-snippet = "keystagesuccess.footer_block"  /> 
-                </xpath> 
+        <template  id = "footer_snippset"  inherit_id = "website.snippets"  name="footer snippet" >
+                <xpath  expr = "// div [@ id = 'snippet_structure'] / div [@ class = 'o_panel_body']"  position = "inside" >
+                    <t  t-snippet = "keystagesuccess.footer_block"  />
+                </xpath>
         </template>
 
-      
+
     </data>
 </odoo>
